@@ -2,9 +2,9 @@
     "name": "php-tmdb/symfony",
     "license": "MIT",
     "type": "symfony-bundle",
-    "description": "Symfony2 Bundle for TMDB ( The Movie Database ) API. Provides easy access to the php-tmdb/api library.",
+    "description": "Symfony Bundle for TMDB (The Movie Database) API. Provides easy access to the php-tmdb/api library.",
     "homepage": "https://github.com/wtfzdotnet/php-tmdb-api",
-    "keywords": ["tmdb", "api", "php","wrapper", "movie", "tv", "tv show", "tvdb", "symfony", "symfony2"],
+    "keywords": ["tmdb", "api", "php","wrapper", "movie", "cinema", "tv", "tv show", "tvdb", "symfony", "symfony2", "symfony3"],
     "authors": [
         {
             "name": "Michael Roterman",
@@ -18,12 +18,12 @@
         "symfony/dependency-injection": ">=2.7,<4",
         "symfony/event-dispatcher": ">=2.7,<4",
         "symfony/http-kernel": ">=2.7,<4",
-        "doctrine/doctrine-cache-bundle": "~1.0",
-        "php-tmdb/api": "~2.1",
-        "twig/twig": "~1.11|~2.0"
+        "doctrine/doctrine-cache-bundle": "^1.0",
+        "php-tmdb/api": "^2.1",
+        "twig/twig": "^1.11|^2.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "~5.0",
+        "phpunit/phpunit": "^4.8||^5.0,<5.4",
         "symfony/framework-bundle": ">=2.7,<4"
     },
     "autoload": {
